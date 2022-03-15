@@ -8,25 +8,63 @@ header {
     text-align: center;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
-
+    background-color:rgba(255,255,255,.75);
+    background-image: url("/img/cave.jpg");
+}
+h1 {
+    font-weight: bold;
+    color: white;
 }
 nav {
     margin:20px;
     padding:20px;
     border: 2px solid #886644; 
     box-shadow: 10px 10px;
+    background-color:rgba(255,255,255,.75);
+    text-align: center;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+h2 {
+    
+    border-bottom: 5px solid black;
+
+}
+a:link {
+    color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+    color: #A52A2A;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  body {
+    background: linear-gradient(#765729, black);
+      }
+      
+  }
 main {
     margin:20px;
     padding:20px;
     border: 2px solid #886644; 
     box-shadow: 10px 10px;
+    background-color:rgba(255,255,255,.75);
 }
 aside {
     margin:20px;
     padding:20px;
     border: 2px solid #886644; 
     box-shadow: 10px 10px;
+    background-color:rgba(255,255,255,.75);
 }
 footer {
     margin:20px;
@@ -35,4 +73,32 @@ footer {
     box-shadow: 10px 10px;
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
+    background-color:rgba(255,255,255,.75);
 }
+main {
+    margin:20px;
+    padding:20px;
+    border: 2px solid #886644; 
+    box-shadow: 10px 10px;
+
+    background-color:rgba(255,255,255,.75);
+}
+:lang(id) {
+
+    font-style: italic;
+    }
+    :lang(fr) {
+    
+        font-style: italic;
+        }
+        :lang(is) {
+    
+            font-style: italic;
+            }
+            :lang(it) {
+    
+                font-style: italic;
+                }
+    .character {
+    font-weight: bold;
+    }
