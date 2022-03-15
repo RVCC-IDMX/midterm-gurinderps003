@@ -1,2 +1,38 @@
 /* Journey to the Center of the Earth Practicum */
 /* Gurinder Pal Singh*/ 
+header {
+    margin:20px;
+    padding:20px;
+    border: 2px solid #886644; 
+    box-shadow: 10px 10px;
+    text-align: center;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+
+}
+nav {
+    margin:20px;
+    padding:20px;
+    border: 2px solid #886644; 
+    box-shadow: 10px 10px;
+}
+main {
+    margin:20px;
+    padding:20px;
+    border: 2px solid #886644; 
+    box-shadow: 10px 10px;
+}
+aside {
+    margin:20px;
+    padding:20px;
+    border: 2px solid #886644; 
+    box-shadow: 10px 10px;
+}
+footer {
+    margin:20px;
+    padding:20px;
+    border: 2px solid #886644; 
+    box-shadow: 10px 10px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
