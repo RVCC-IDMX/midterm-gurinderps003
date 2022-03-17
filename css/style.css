@@ -58,6 +58,15 @@ main {
     border: 2px solid #886644; 
     box-shadow: 10px 10px;
     background-color:rgba(255,255,255,.75);
+
+}
+main img {
+    float:left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+main p::first-line {
+    font-size: x-large;
 }
 aside {
     margin:20px;
