@@ -79,11 +79,7 @@ main {
     background-color:rgba(255,255,255,.75);
 
 }
-main img {
-    float:left;
-    padding-right: 2em;
-    padding-bottom: 2em;
-}
+
 #cryptogram {
     text-align: center;
 }
@@ -163,3 +159,27 @@ main {
     }
 }
 
+@media screen and (min-width: 1024px) {
+body {
+    display: grid;
+    grid-template-columns: auto 20rem;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "main aside"
+    "footer footer";
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+header { grid-area: header; }
+nav { grid-area: nav;}
+main { grid-area: main;}
+aside { grid-area: aside;}
+footer { grid-area: footer;}
+
+aside {
+    display: block;
+}
+
+}
